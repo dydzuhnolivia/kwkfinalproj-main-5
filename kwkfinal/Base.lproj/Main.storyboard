@@ -61,19 +61,19 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle.fill" catalog="system" id="GMg-5q-X7f">
-                                <rect key="frame" x="52.567615288122738" y="250.43403710418124" width="308" height="342"/>
+                                <rect key="frame" x="54" y="253.5" width="305" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.043137259779999999" green="0.30980393290000002" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="358" id="P9x-eu-5UK">
-                                <rect key="frame" x="36" y="645" width="342" height="70"/>
+                                <rect key="frame" x="36" y="645" width="371" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="ReG-aR-9qT"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Take a deep breath, then shake your phone :)">
+                                    <fragment content="Take a deep breath, then shake your phone ">
                                         <attributes>
                                             <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" metaFont="system" size="25"/>
@@ -104,20 +104,20 @@
                                     <action selector="homeOneViewButtonPressed:" destination="YEq-5i-dSF" eventType="touchUpInside" id="9GX-9V-5w8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5u6-zb-lBM">
-                                <rect key="frame" x="142" y="371" width="127" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Screen Shot 2021-07-22 at 11.38.21 AM" id="SPc-lo-rlh">
-                                <rect key="frame" x="83" y="361" width="224" height="184"/>
+                                <rect key="frame" x="70" y="337" width="274" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="184" id="X5s-3q-c9n"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqi-I4-elz">
+                                <rect key="frame" x="128" y="354" width="156" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                <color key="textColor" red="0.92156862745098034" green="0.58039215686274503" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a4L-5F-OTV"/>
                         <color key="backgroundColor" red="0.0" green="0.31372550129999999" blue="0.43137252329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -144,7 +144,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="blankLabel" destination="5u6-zb-lBM" id="iv4-B3-4YU"/>
+                        <outlet property="blankLabel" destination="Qqi-I4-elz" id="mHY-uy-r94"/>
                         <segue destination="BYZ-38-t0r" kind="showDetail" identifier="HomeOneViewSegue" id="h1a-ba-eEK"/>
                     </connections>
                 </viewController>
@@ -307,7 +307,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs4-JD-lMB">
-                                <rect key="frame" x="196.5" y="189" width="155.5" height="29"/>
+                                <rect key="frame" x="196.5" y="179" width="155.5" height="29"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Bella Chaviano">
                                         <attributes>
@@ -353,7 +353,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="179" id="yJN-8G-u81"/>
                                 </constraints>
-                                <string key="text">Olivia loves to code and her favorite self care activity is skin care! In her free time she loves to code websites. Olivia believes that self-care is an important factor to living a happy life and hopes this app can help others care for themselves better.</string>
+                                <string key="text">Olivia loves to code and her favorite self care activity is skin care! In her free time she loves to code websites. She believes that self-care is an important factor to living a happy life and hopes this app can help others care for themselves better.</string>
                                 <fontDescription key="fontDescription" name="Cambay-Regular" family="Cambay" pointSize="16"/>
                                 <color key="textColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -643,7 +643,7 @@ Need 2 Text (Texttline just to talk) Text "talk" to
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h1a-ba-eEK"/>
+        <segue reference="y7f-uf-mbo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_9182 (1)" width="1918" height="2557"/>
